@@ -1,89 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
-<title>Home</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="UTF-8">
-<link href="style1.css" rel="stylesheet" type="text/css"/>
-<body style="background-color:#1ab7eb">
-<style>
-.dropbtn {
-  background-color: #3498DB;                        //#0d9adb//
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown a:hover {background-color: #ddd;}
-
-.show {display: block;}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Website - Home</title>
 </head>
 <body>
-<h1> Benvenuti su delfo.top </h1>
-
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="index.html">Home</a>
-    <a href="https://accounts.zoho.eu/signin?service_language=it&servicename=VirtualOffice&signupurl=https://www.zoho.com/it/mail/zohomail-pricing.html&serviceurl=https://mail.zoho.eu">Webmail</a>
-    <a href="https://github.com/Bartolini1522/bartolini1522.github.io">Pagina Github</a>
-    <a href="contatti.html">Contatti</a>
-  </div>
-</div>
-
-
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-
-
-</script>
-
+  <header>
+    <h1>Benvenuti sul mio sito web!</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    
+  </main>
+  <footer>
+    <a>   delfo.top
+          
+    </a>
+  </footer>
 </body>
 </html>
